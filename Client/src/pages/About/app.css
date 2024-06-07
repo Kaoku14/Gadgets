@@ -1,0 +1,43 @@
+*{
+  height: max-content;
+  width: 1700px;
+}
+.about-page{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    width: 200px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(../../assets/repair.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    color: aliceblue;
+
+}
+.about-page button {
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 16px; /* Smaller size */
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size if needed */
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .about-page button:hover {
+    background-color: #2980b9; /* Darken the color on hover */
+  }
+  .butt{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+  }
+  .briggs{
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    
+  }

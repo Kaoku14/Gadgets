@@ -1,0 +1,77 @@
+* :not(.App){
+  height: max-content;
+  align-items: center;
+  
+  
+}
+.App {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin:  auto; 
+    width: 80%; 
+    height: 80%;
+    font-family: sans-serif; 
+  }
+
+  
+  .search-bar {
+    margin-bottom: 20px; 
+  }
+  
+  .box {
+    background-color: #f5f5f5; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 15px; 
+    margin-bottom: 10px; 
+   
+  }
+  
+  h2 {
+    margin-bottom: 5px; 
+    font-size: 18px; 
+  }
+  
+  p {
+    font-size: 14px; 
+    margin-bottom: 0; 
+  }
+
+  .search-bar button {
+    background-color: #3498db;
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  .search-bar button:hover {
+    background-color: #2980b9; 
+  }
+  
+  .cart-button {
+    background-color:#ddd;
+  }
+  
+  .cart-button-highlighted {
+  background-color:#2980b9;
+  }
+  .briggs{
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 10px;
+    
+  }
+  .favorite-icon {
+    color: black; 
+    width: 20px;
+    height: 20px;
+  }
+  
+  .favorite-icon.favorite {
+    color: blue; 
+  }

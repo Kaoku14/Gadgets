@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  /* Additional styles for complete left alignment: */
+  width: 100%; /* Set full width for reference */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.App button {
+  /* ... your existing styles ... */
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* Additional styles for form elements: */
+  width: 100%; /* Set form width to match container */
+  margin: 0; /* Remove any default margins */
+  padding: 15px; /* Add some padding for spacing */
+}
+
+form label {
+  margin-bottom: 5px; /* Add some space below labels */
+}
+.home {
+  margin-right: 430px;
+}
